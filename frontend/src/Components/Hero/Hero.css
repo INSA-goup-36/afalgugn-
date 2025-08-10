@@ -1,0 +1,90 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:  100px;
+}
+.hero h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 1.9rem;
+    margin-bottom: 30px;
+}
+.button-group {
+  display: flex;
+  gap: 15px; /* space between buttons */
+  margin-top: 150px;
+}
+.hero {
+  position: relative; /* Needed for absolute positioning */
+  width: 100%;
+  height: 100vh;
+}
+.hero .btn1,
+.hero .btn2,
+.hero .btn3 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  width:100%
+ 
+}
+
+.hero .btn1,
+.hero .btn2 {
+  background: #FF9600;
+  
+}
+
+.hero .btn3 {
+  background: #A3BDF1;
+   
+}
+.hero-images {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  gap: 20px; /* space between images */
+}
+
+.hero-image1 {
+  width: 20%;
+  height: auto;
+}
+
+.hero-image2 {
+  width: 30%;
+  height: auto;
+}
+
+.hero-image3 {
+  width: 20%;
+  height: auto;
+}
+.img-person {
+  position: absolute;
+  top: 20px; /* space from top */
+  right:200px; /* space from right */
+  width: 150px; /* adjust size */
+  height: auto;
+}
+.map-img {
+  position: absolute;
+  left: 250px; /* space from left edge */
+  top:50%;
+  transform: translateY(-50%); /* center vertically */
+  width: 150px; /* adjust size */
+  height: auto;
+}
