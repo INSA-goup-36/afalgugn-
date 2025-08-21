@@ -130,12 +130,15 @@ const Dashboard = () => {
           >
             ⚙ Settings
           </a>
+          <Link to="/admin/dashboard"
+            className="block font-medium text-gray-700 hover:text-blue-600"
+            href="#"
+          >
+            Admin
+          </Link>
         </nav>
       </aside>
-
-      {/* Main Content */}
       <main className="flex-1 p-6 md:ml-0">
-        {/* Header */}
         <header className="flex justify-between items-center mb-6">
           <div className="flex items-center gap-3">
             <button
@@ -182,8 +185,6 @@ const Dashboard = () => {
             <p className="font-medium">AI Chat</p>
           </Card>
         </div>
-
-        {/* Daily Quote */}
         <section className="mb-8">
           <Card>
             <CardContent>

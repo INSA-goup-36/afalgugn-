@@ -26,7 +26,7 @@ const Hero = () => {
     >
       <div className="flex flex-col justify-center w-full gap-10">
         <div className="flex flex-col justify-center items-center gap-10">
-          <h1 className="text-3xl lg:text-8xl font-bold p-0 lg:p-0 text-amber-500">
+          <h1 className="text-3xl lg:text-5xl font-bold p-0 lg:p-0 text-amber-500">
             {displayedText} <span classsName="animate-[blink_1s_infinite] text-sm">|</span>
           </h1>
           <h2 className="text-2xl text-white font-bold p-0 lg:p-10">

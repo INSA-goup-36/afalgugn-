@@ -10,6 +10,7 @@ import FoundPerson from './components/user/FoundPerson.jsx'
 import ReportMissing from './components/user/ReportMissing.jsx'
 import ResetPassword from './components/auth/ResetPassword.jsx'
 import ForgotPassword from './components/auth/ForgotPassword.jsx'
+import AdminDashboard from './components/admin/admin-dashboard.jsx'
  export default function App(){
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ import ForgotPassword from './components/auth/ForgotPassword.jsx'
       <Route path="/post" element={<FoundPerson/>}/>
       <Route path="/forgot" element={<ForgotPassword/>}/>
       <Route path="/reset" element={<ResetPassword/>}/>
+      <Route path="/admin/dashboard" element={<AdminDashboard/>}/>
     </Routes>
     </BrowserRouter>
   );
