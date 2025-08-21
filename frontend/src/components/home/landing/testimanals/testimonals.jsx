@@ -8,7 +8,7 @@ const Testimonal = () => {
       <div className={styles.testimonals}>
         <div className={`${styles.eachtestimonal} ${styles.dawit}`}>
           <div className={styles.avaterco}>
-            <img className={styles.avater}  />
+            <img className={styles.avater} src={`https://aboutmurals.ca/wp-content/uploads/2021/10/Dark-Castle-Wallpaper-About-Murals.jpg`} />
             <h3>Dawit Lulie</h3>
           </div>
           <h4>Volunteer Coordinator</h4>
@@ -19,7 +19,7 @@ const Testimonal = () => {
 
         <div className={`${styles.eachtestimonal} ${styles.dawit}`}>
           <div className={styles.avaterco}>
-            <img className={styles.avater}  />
+            <img className={styles.avater}  src={`https://aboutmurals.ca/wp-content/uploads/2021/10/Dark-Castle-Wallpaper-About-Murals.jpg`} />
             <h3>Lidia Teshome</h3>
           </div>
           <h4>Community Organizer</h4>
@@ -30,7 +30,7 @@ const Testimonal = () => {
 
         <div className={`${styles.eachtestimonal} ${styles.dawit}`}>
           <div className={styles.avaterco}>
-            <img className={styles.avater} />
+            <img className={styles.avater}  src={`https://aboutmurals.ca/wp-content/uploads/2021/10/Dark-Castle-Wallpaper-About-Murals.jpg`}/>
             <h3>Henok Alemu</h3>
           </div>
           <h4>Case Manager</h4>

@@ -9,9 +9,9 @@ const Nav = () => {
       
         <nav className={styles.nav}> 
             
-              <h1 className="text-2xl font-bold text-blue-800">Afalgugn</h1> 
+              <h1 className="text-3xl font-bold text-emerald-400">Afalgugn</h1> 
             
-            <Link to="/" className={`${styles.btn} ${styles.primary}`}>
+            <Link to="/login" className={`${styles.btn} ${styles.primary}`}>
             <FontAwesomeIcon icon ={faRightToBracket}/> login</Link>
         </nav>
       

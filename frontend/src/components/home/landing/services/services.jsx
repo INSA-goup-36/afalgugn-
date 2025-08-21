@@ -41,18 +41,14 @@ const Services = () => {
     <div className={style.page}>
       <div className={style.container}>
         <h2 className="text-2xl font-bold">Our Services</h2>
-        <div className={style.pagecontent}>
-          <p style={{ textAlign: 'center', fontSize: '1.2rem', color: '#666' }}>
-            Afalgugn provides tools and community support to help report, track, and reunite missing persons safely and efficiently.
-          </p>
-          
+        <div className={style.pagecontent}>          
           <div className={style.container}>
             {services.map((service, index) => (
-              <div key={index} className={`shadow-lg w-4/5 lg:w-1/4 p-10`}>
+              <div key={index} className={`shadow-lg w-4/5 lg:w-1/4 p-10 rounded-2xl hover:translate-y-[-10px] transition duration 100`}>
                 <div className={style.icon}>
                   <i className={service.icon}></i>
                 </div>
-                <h3>{service.title}</h3>
+                <h1 className="font-bold">{service.title}</h1>
                 <p style={{ marginBottom: '1.5rem' }}>{service.description}</p>
                 <div style={{ 
                   display: 'flex', 
@@ -60,9 +56,7 @@ const Services = () => {
                   alignItems: 'center',
                   marginTop: 'auto'
                 }}>
-                  <button className={style.primary}>
-                    Get Started
-                  </button>
+                 
                 </div>
               </div>
             ))}
