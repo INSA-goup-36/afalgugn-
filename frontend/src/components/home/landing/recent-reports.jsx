@@ -33,7 +33,7 @@ const RecentPosts = () => {
       <h2 className="text-3xl font-bold text-center mb-8">Recent Posts</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {posts.map((post, index) => (
-          <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col">
+          <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col hover:translate-y-[-10px] transition duration 100" >
             <img src={post.image} alt={post.name} className="w-full h-48 object-cover" />
             <div className="p-4 flex-1 flex flex-col">
               <h3 className="text-xl font-semibold mb-1">{post.name}</h3>
