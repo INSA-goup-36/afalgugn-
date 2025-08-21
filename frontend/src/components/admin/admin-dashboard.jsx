@@ -1,12 +1,9 @@
-// src/pages/admin/Dashboard.jsx
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Users, FileText, AlertCircle, MapPin, MessageCircle, Home, Menu, X } from "lucide-react";
-
 const Dashboard = () => {
   const location = useLocation();
   const [sidebarOpen, setSidebarOpen] = useState(false); 
-
   const metrics = [
     { title: "Total Users", value: 120, icon: <Users className="w-6 h-6 text-black" />, bg: "bg-green-300" },
     { title: "Reports Submitted", value: 75, icon: <FileText className="w-6 h-6 text-white" />, bg: "bg-red-200" },
@@ -59,7 +56,7 @@ const Dashboard = () => {
       <Menu className="w-6 h-6  " />
       </button>      }
       <main className="flex-1 p-6 lg:ml-64 bg-gray-100">
-        <h1 className="text-3xl font-bold mb-6">Dashboard</h1>
+        <h1 className="text-3xl font-bold mb-6">Welcome Admin</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {metrics.map((metric) => (
             <div key={metric.title} className={`flex items-center p-6 rounded-2xl shadow  ${metric.bg}`}>
@@ -85,14 +82,14 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="bg-white p-6 rounded-2xl shadow mb-8">
-          <h2 className="text-xl font-semibold mb-4">Recent Reports Overview</h2>
+          <h2 className="text-xl font-semibold mb-4">Recent Reports</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="p-4 bg-gray-50 rounded-xl shadow">
-              <p className="font-semibold">Reports Pending Approval</p>
+              <p className="font-semibold">Pending Reports</p>
               <p className="text-2xl font-bold text-gray-800">7</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-xl shadow">
-              <p className="font-semibold">Reports Matched Successfully</p>
+              <p className="font-semibold">Reports Matched</p>
               <p className="text-2xl font-bold text-gray-800">23</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-xl shadow">
