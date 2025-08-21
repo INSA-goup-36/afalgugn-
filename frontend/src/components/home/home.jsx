@@ -21,7 +21,6 @@ const Home = ()=>{
      <Faq/>
      <Cta/>
      <Footer/> 
-
      </div>
    </div>
     )
