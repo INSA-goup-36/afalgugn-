@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 
-# 🕵️‍♂️ Afalgugn
+#  Afalgugn
 
 ##  Overview
 Afalgugn is a web application that helps connect **missing persons** with **the people who find them**.  
