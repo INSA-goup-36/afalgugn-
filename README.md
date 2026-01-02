@@ -2,7 +2,7 @@
 
 # 🕵️‍♂️ Afalgugn
 
-## 📌 Overview
+##  Overview
 Afalgugn is a web application that helps connect **missing persons** with **the people who find them**.  
 Users can **create and search profiles** of lost individuals, and those who have found them can submit details such as **name, age, address, and circumstances** of discovery.
 
